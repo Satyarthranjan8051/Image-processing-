@@ -34,6 +34,5 @@ Learn more about the Sobel operator in OpenCV! 📚🔍
 
 <H2>!Generated Image </H2>
 
-Disclaimer: The image and content above are generated for illustrative purposes and do not represent any actual image or copyrighted material.
 
-: GeeksforGeeks. “Comprehensive Guide to Edge Detection Algorithms.” Accessed September 3, 2024. Link : OpenCV Documentation. “Sobel Derivatives.” Accessed September 3, 2024. Link
+<H1><I><b>HAPPY CODING</b></I></H1>
