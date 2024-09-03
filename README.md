@@ -34,5 +34,5 @@ Learn more about the Sobel operator in OpenCV! 📚🔍
 
 <H2>!Generated Image </H2>
 
-
+!Alt https://media1.tenor.com/m/Ce_EIG6qg0kAAAAC/happy-happy-happy-happy.gif
 <H1><I><b>HAPPY CODING</b></I></H1>
