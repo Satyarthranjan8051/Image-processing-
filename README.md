@@ -36,4 +36,5 @@ Learn more about the Sobel operator in OpenCV! 📚🔍
 
 <H1><I><b>HAPPY CODING</b></I></H1>
 
-![demo gif]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/Satyarthranjan8051/Image-processing-/blob/main/happy-happy-happy-happy.gif))
+
+![happy-happy-happy-happy](https://github.com/user-attachments/assets/145226f9-7923-4e3b-b636-40911b82f31e)
