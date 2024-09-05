@@ -17,8 +17,8 @@ You can install the required libraries using the following pip command:
 pip install opencv-python numpy matplotlib scikit-image
 ```
 
-<h1><u>How it Works</u></h1>
-<h3>Source Image: The image for which you want to match the histogram.
+## How it Works
+Source Image: The image for which you want to match the histogram.
 
 Reference Image: The image whose histogram will be used as the reference.
 
@@ -26,37 +26,37 @@ Histogram Matching: This is done using skimage.exposure.match_histograms, which 
 
 Blending: The source image and the matched image are blended together using cv2.addWeighted with a 50-50 blending ratio.
 
-Display: The source image, matched image, and the final blended image, along with their histograms, are displayed using Matplotlib.</h3>
+Display: The source image, matched image, and the final blended image, along with their histograms, are displayed using Matplotlib.
 
-<h1><u>Code Explanation</u>u</h1>
+# Code Explanation
 
-<h2>Image Loading</h2>
-<h3>The source and reference images are loaded as grayscale images using OpenCV:</h3>
+## Image Loading
+The source and reference images are loaded as grayscale images using OpenCV:
 ```bash
 source_image = cv2.imread('/content/22.png', cv2.IMREAD_GRAYSCALE)
 reference_image = cv2.imread('/content/pics11.jpg', cv2.IMREAD_GRAYSCALE)
 ```
-<h2>Histogram Matching</h2>
-<h3>The match_histograms function from skimage.exposure is used to match the histogram of the source image to that of the reference image:</h3>
+## Histogram Matching
+The match_histograms function from skimage.exposure is used to match the histogram of the source image to that of the reference image:
 ```bash
 matched_image = match_histograms(source_image, reference_image).astype(np.float32)
 ```
-<h2>Image Blending</h2>
-<h3>The source image and matched image are blended using a weighted sum:</h3>
+## Image Blending
+The source image and matched image are blended using a weighted sum:
 ```bash
 mix_image = cv2.addWeighted(source_image_float, 0.5, matched_image, 0.5, 0)
 ```
 
-<h2>Display Image and Histograms</h2>
-<h3>A function display_images_and_histograms is used to display the images and their corresponding histograms:</h3>
+## Display Image and Histograms
+A function display_images_and_histograms is used to display the images and their corresponding histograms:
 ```bash
 def display_images_and_histograms(source, reference, mix):
     # Code to display images and histograms
 ```
 
-<h2>Example of The Output</h2>
+## Example of The Output
 
-<h3>The program will display three images:
+The program will display three images:
 
 1. Source Image: The original input image.
 
@@ -64,22 +64,21 @@ def display_images_and_histograms(source, reference, mix):
 
 3. Mix Image: The result of blending the source image with the matched image.
 
-Each image will have its corresponding histogram shown alongside it.</h3>
+Each image will have its corresponding histogram shown alongside it.
 
-<h2>How to Run The Code</h2>
+## How to Run The Code
 
-<h3>
 1. Ensure that all the required dependencies are installed.
   
 2. Replace the image paths in the code (/content/22.png and /content/pics11.jpg) with the paths to your source and reference images.
 
 3.Run the script to view the results.
-</h3>
+
 ```bash
 python image_histogram_matching.py
 ```
-<h2>Output</h2>
-<h3>
+## Output
+
 The output will be three images displayed along with their histograms:
 
 1. Source Image
@@ -87,15 +86,15 @@ The output will be three images displayed along with their histograms:
 2. Matched Image
 
 3. Mix Image
-</h3>
 
-<h2>License</h2>
 
-<h3>This project is licensed under the MIT License.</h3>
+## License
+
+This project is licensed under the MIT License.
 ```bash
 Make sure to adapt the image paths in the code to match the actual locations on your system when running the code.
 ```
 
 
 
-<H1>Happy Coding</H1>
+# <i>Happy Coding </i>
