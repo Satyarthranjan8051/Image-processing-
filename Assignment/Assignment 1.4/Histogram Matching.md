@@ -32,25 +32,25 @@ Display: The source image, matched image, and the final blended image, along wit
 
 <h2>Image Loading</h2>
 <h3>The source and reference images are loaded as grayscale images using OpenCV:</h3>
-```
--> source_image = cv2.imread('/content/22.png', cv2.IMREAD_GRAYSCALE)
--> reference_image = cv2.imread('/content/pics11.jpg', cv2.IMREAD_GRAYSCALE)
+```bash
+source_image = cv2.imread('/content/22.png', cv2.IMREAD_GRAYSCALE)
+reference_image = cv2.imread('/content/pics11.jpg', cv2.IMREAD_GRAYSCALE)
 ```
 <h2>Histogram Matching</h2>
 <h3>The match_histograms function from skimage.exposure is used to match the histogram of the source image to that of the reference image:</h3>
-```
--> matched_image = match_histograms(source_image, reference_image).astype(np.float32)
+```bash
+matched_image = match_histograms(source_image, reference_image).astype(np.float32)
 ```
 <h2>Image Blending</h2>
 <h3>The source image and matched image are blended using a weighted sum:</h3>
-```
--> mix_image = cv2.addWeighted(source_image_float, 0.5, matched_image, 0.5, 0)
+```bash
+mix_image = cv2.addWeighted(source_image_float, 0.5, matched_image, 0.5, 0)
 ```
 
 <h2>Display Image and Histograms</h2>
 <h3>A function display_images_and_histograms is used to display the images and their corresponding histograms:</h3>
-```
--> def display_images_and_histograms(source, reference, mix):
+```bash
+def display_images_and_histograms(source, reference, mix):
     # Code to display images and histograms
 ```
 
@@ -75,8 +75,8 @@ Each image will have its corresponding histogram shown alongside it.</h3>
 
 3.Run the script to view the results.
 </h3>
-```
--> python image_histogram_matching.py
+```bash
+python image_histogram_matching.py
 ```
 <h2>Output</h2>
 <h3>
@@ -92,11 +92,10 @@ The output will be three images displayed along with their histograms:
 <h2>License</h2>
 
 <h3>This project is licensed under the MIT License.</h3>
-```
--> 
+```bash
 Make sure to adapt the image paths in the code to match the actual locations on your system when running the code.
 ```
-![image](https://github.com/user-attachments/assets/18b63a0f-2efb-4928-b4b0-22268a992420)
+
 
 
 <H1>Happy Coding</H1>
