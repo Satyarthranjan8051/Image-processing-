@@ -95,6 +95,6 @@ This project is licensed under the MIT License.
 Make sure to adapt the image paths in the code to match the actual locations on your system when running the code.
 ```
 
-
-
 # <i>Happy Coding </i>
+
+![cute-cat-cat-typing](https://github.com/user-attachments/assets/0a0759c2-7437-4462-a0a1-a14bfde75c4c)
