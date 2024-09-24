@@ -1,18 +1,18 @@
-  #EXPERIMENT NO-3.1
+# EXPERIMENT NO-3.1
 
 
-##AIM: Detect points, lines, edges, and boundaries in images.
+## AIM: Detect points, lines, edges, and boundaries in images.
 
-##SOFTWARE REQUIRED: Any Python IDE (e.g., PyCharm, JupyterNotebook,GoogleColab)
+## SOFTWARE REQUIRED: Any Python IDE (e.g., PyCharm, JupyterNotebook,GoogleColab)
 
-##RELEVANCE OF THE EXPERIMENT:
+## RELEVANCE OF THE EXPERIMENT:
 
-##Feature Extraction: Detecting points, lines, edges, and boundaries is crucial for extracting significant features from images, which is essential for image analysis and interpretation.
+## Feature Extraction: Detecting points, lines, edges, and boundaries is crucial for extracting significant features from images, which is essential for image analysis and interpretation.
 ##Preprocessing Step: These detection techniques are often used as preprocessing steps in various computer vision tasks such as object recognition, image segmentation, and image registration.
 ##Improved Analysis: By highlighting important structural elements, these techniques facilitate better understanding and analysis of images in fields like medical imaging, remote sensing, and industrial inspection.
  
 
-#DESCRIPTION:
+# DESCRIPTION:
 
 Point, line, edge, and boundary detection are fundamental techniques in image processing used to identify significant changes in intensity that correspond to points, lines, edges, or boundaries within an image. Point Detection: Identifies individual points in the image that stand out from their surroundings. Line Detection: Identifies lines by detecting linear patterns of intensity changes. Edge Detection: Identifies edges where there is a sharp change in intensity, indicating the boundary between different regions. Boundary Detection: Detects the outline of objects within an image, often through connected edge segments. more detail
 
